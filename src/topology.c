@@ -1301,7 +1301,7 @@ static HSAKMT_STATUS topology_sysfs_get_iolink_props(uint32_t node_id,
 err2:
 	free(read_buf);
 err1:
-	fclose(fd);
+	//fclose(fd);
 	return ret;
 }
 
